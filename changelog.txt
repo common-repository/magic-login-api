@@ -1,0 +1,28 @@
+=== Magic Login API ===
+# When a pull request is approved.
+# CI script will look for the most recent version number, then
+# if it is a "bug-fix" it will increment that version by 0.0.1 
+# if it is a "feature" it will increment by 0.1 
+# if it is a "version" it will increment by 1
+# Then CI will update the version number everywhere else it is needed.
+# the full change log can get very long. Hundreds of lines long the readme
+#   file needs to have a truncated version of the chanfdgellog, and only show versions,
+#   features related to the latest version, and bug fixes relates to the latest feature.
+
+[bug-fix] [version 1.1.2]
+    - Bugfix descrifption addition ffed
+
+[bug-fix] [version 1.1.1]
+    - updated readme.txt file - added advanced user guide. 
+    - updated application to link to wpressapis.com
+        - wpressapis.com is the homepage for the plugin. 
+    - updated application to link to draglabs.com
+        - draglabs.com is the homepage for the developer.
+ 
+[feature] [version 1.1.0]
+    - updated readme
+
+[bug-fix] [version 1.0.1]
+    - security fix
+
+[version] [version 1.0.0]
